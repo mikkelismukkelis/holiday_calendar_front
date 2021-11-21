@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mainheader {
+  position: sticky;
+  top: 0;
+  background-color: #0071bc !important;
+}
+
+.holiday {
+  background-color: rgb(255, 252, 75) !important;
+}
+
+.form-control {
+  background-color: white;
+}
+
+.app-bar {
+  margin-bottom: 20px;
+}
+.tool-bar {
+  background-color: lightgray;
+}
+
+.button-stack {
+  margin-left: 400px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .button-stack {
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .button-stack {
+    margin-left: 10px;
+  }
+}
+
+.button {
+  width: 200px;
+}
+
+.big-button {
+  height: 70px;
+  width: 300px;
+}
+
+.add-container {
+  margin-top: 40px;
+}
+
+.add-input {
+  margin-bottom: 20px !important;
+}
+
+.add-user-button-stack {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-holiday-button-stack {
+  margin-top: 20px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.user-select {
+  margin-bottom: 20px !important;
+}
+
+#datepickers {
+  margin-bottom: 40px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 13% 20px 20%;
+}
+
+#start-picker,
+#end-picker {
+  height: 70px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #start-picker,
+  #end-picker {
+    width: 200px;
+  }
+}
